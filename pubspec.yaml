@@ -1,0 +1,430 @@
+name: canton_design_system
+description: Canton Design System elements.
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+  flutter: '>=1.17.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^0.14.0+3
+  flutter_slidable: ^0.6.0
+  flutter_feather_icons: ^2.0.0+1
+  flutter_spinkit: ^5.0.0
+  flutter_svg: ^0.22.0
+  figma_squircle: ^0.5.2
+  font_awesome_flutter: ^9.1.0
+  ms_undraw: ^3.0.1+1
+  liquid_pull_to_refresh: ^3.0.0
+  cupertino_icons: ^1.0.3
+  iconsax: ^0.0.8
+  page_transition: ^2.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your package, add an assets section, like this:
+  assets:
+    # Iconly Icons
+
+    #### Bold
+    - lib/assets/icons/svgs/bold/Activity.svg
+    - lib/assets/icons/svgs/bold/AddUser.svg
+    - lib/assets/icons/svgs/bold/ArrowDown.svg
+    - lib/assets/icons/svgs/bold/ArrowDown2.svg
+    - lib/assets/icons/svgs/bold/ArrowDown3.svg
+    - lib/assets/icons/svgs/bold/ArrowDownCircle.svg
+    - lib/assets/icons/svgs/bold/ArrowDownSquare.svg
+    - lib/assets/icons/svgs/bold/ArrowLeft.svg
+    - lib/assets/icons/svgs/bold/ArrowLeft2.svg
+    - lib/assets/icons/svgs/bold/ArrowLeft3.svg
+    - lib/assets/icons/svgs/bold/ArrowLeftCircle.svg
+    - lib/assets/icons/svgs/bold/ArrowLeftSquare.svg
+    - lib/assets/icons/svgs/bold/ArrowRight.svg
+    - lib/assets/icons/svgs/bold/ArrowRight2.svg
+    - lib/assets/icons/svgs/bold/ArrowRight3.svg
+    - lib/assets/icons/svgs/bold/ArrowRightCircle.svg
+    - lib/assets/icons/svgs/bold/ArrowRightSquare.svg
+    - lib/assets/icons/svgs/bold/ArrowUp.svg
+    - lib/assets/icons/svgs/bold/ArrowUp2.svg
+    - lib/assets/icons/svgs/bold/ArrowUp3.svg
+    - lib/assets/icons/svgs/bold/ArrowUpCircle.svg
+    - lib/assets/icons/svgs/bold/ArrowUpSquare.svg
+    - lib/assets/icons/svgs/bold/Bag.svg
+    - lib/assets/icons/svgs/bold/Bag2.svg
+    - lib/assets/icons/svgs/bold/Bookmark.svg
+    - lib/assets/icons/svgs/bold/Buy.svg
+    - lib/assets/icons/svgs/bold/Calendar.svg
+    - lib/assets/icons/svgs/bold/Call.svg
+    - lib/assets/icons/svgs/bold/CallMissed.svg
+    - lib/assets/icons/svgs/bold/CallSilent.svg
+    - lib/assets/icons/svgs/bold/Calling.svg
+    - lib/assets/icons/svgs/bold/Camera.svg
+    - lib/assets/icons/svgs/bold/Category.svg
+    - lib/assets/icons/svgs/bold/Chart.svg
+    - lib/assets/icons/svgs/bold/Chat.svg
+    - lib/assets/icons/svgs/bold/CloseSquare.svg
+    - lib/assets/icons/svgs/bold/Danger.svg
+    - lib/assets/icons/svgs/bold/Delete.svg
+    - lib/assets/icons/svgs/bold/Discount.svg
+    - lib/assets/icons/svgs/bold/Discovery.svg
+    - lib/assets/icons/svgs/bold/Document.svg
+    - lib/assets/icons/svgs/bold/Download.svg
+    - lib/assets/icons/svgs/bold/Edit.svg
+    - lib/assets/icons/svgs/bold/EditSquare.svg
+    - lib/assets/icons/svgs/bold/Filter.svg
+    - lib/assets/icons/svgs/bold/Filter2.svg
+    - lib/assets/icons/svgs/bold/Folder.svg
+    - lib/assets/icons/svgs/bold/Game.svg
+    - lib/assets/icons/svgs/bold/Graph.svg
+    - lib/assets/icons/svgs/bold/Heart.svg
+    - lib/assets/icons/svgs/bold/Hide.svg
+    - lib/assets/icons/svgs/bold/Home.svg
+    - lib/assets/icons/svgs/bold/Image.svg
+    - lib/assets/icons/svgs/bold/Image2.svg
+    - lib/assets/icons/svgs/bold/InfoCircle.svg
+    - lib/assets/icons/svgs/bold/InfoSquare.svg
+    - lib/assets/icons/svgs/bold/Location.svg
+    - lib/assets/icons/svgs/bold/Lock.svg
+    - lib/assets/icons/svgs/bold/Login.svg
+    - lib/assets/icons/svgs/bold/Logout.svg
+    - lib/assets/icons/svgs/bold/Message.svg
+    - lib/assets/icons/svgs/bold/MoreCircle.svg
+    - lib/assets/icons/svgs/bold/MoreSquare.svg
+    - lib/assets/icons/svgs/bold/Notification.svg
+    - lib/assets/icons/svgs/bold/Paper.svg
+    - lib/assets/icons/svgs/bold/PaperDownload.svg
+    - lib/assets/icons/svgs/bold/PaperFail.svg
+    - lib/assets/icons/svgs/bold/PaperNegative.svg
+    - lib/assets/icons/svgs/bold/PaperPlus.svg
+    - lib/assets/icons/svgs/bold/PaperUpload.svg
+    - lib/assets/icons/svgs/bold/Password.svg
+    - lib/assets/icons/svgs/bold/Play.svg
+    - lib/assets/icons/svgs/bold/Plus.svg
+    - lib/assets/icons/svgs/bold/Profile.svg
+    - lib/assets/icons/svgs/bold/Scan.svg
+    - lib/assets/icons/svgs/bold/Search.svg
+    - lib/assets/icons/svgs/bold/Send.svg
+    - lib/assets/icons/svgs/bold/Setting.svg
+    - lib/assets/icons/svgs/bold/ShieldDone.svg
+    - lib/assets/icons/svgs/bold/ShieldFail.svg
+    - lib/assets/icons/svgs/bold/Show.svg
+    - lib/assets/icons/svgs/bold/Star.svg
+    - lib/assets/icons/svgs/bold/Swap.svg
+    - lib/assets/icons/svgs/bold/TickSquare.svg
+    - lib/assets/icons/svgs/bold/Ticket.svg
+    - lib/assets/icons/svgs/bold/TicketStar.svg
+    - lib/assets/icons/svgs/bold/TimeCircle.svg
+    - lib/assets/icons/svgs/bold/TimeSquare.svg
+    - lib/assets/icons/svgs/bold/Unlock.svg
+    - lib/assets/icons/svgs/bold/Upload.svg
+    - lib/assets/icons/svgs/bold/User2.svg
+    - lib/assets/icons/svgs/bold/User3.svg
+    - lib/assets/icons/svgs/bold/Video.svg
+    - lib/assets/icons/svgs/bold/Voice.svg
+    - lib/assets/icons/svgs/bold/Voice2.svg
+    - lib/assets/icons/svgs/bold/VolumeDown.svg
+    - lib/assets/icons/svgs/bold/VolumeOff.svg
+    - lib/assets/icons/svgs/bold/VolumeUp.svg
+    - lib/assets/icons/svgs/bold/Wallet.svg
+    - lib/assets/icons/svgs/bold/Work.svg
+
+    #### Line
+    - lib/assets/icons/svgs/line/Activity.svg
+    - lib/assets/icons/svgs/line/AddUser.svg
+    - lib/assets/icons/svgs/line/ArrowDown.svg
+    - lib/assets/icons/svgs/line/ArrowDown2.svg
+    - lib/assets/icons/svgs/line/ArrowDown3.svg
+    - lib/assets/icons/svgs/line/ArrowDownCircle.svg
+    - lib/assets/icons/svgs/line/ArrowDownSquare.svg
+    - lib/assets/icons/svgs/line/ArrowLeft.svg
+    - lib/assets/icons/svgs/line/ArrowLeft2.svg
+    - lib/assets/icons/svgs/line/ArrowLeft3.svg
+    - lib/assets/icons/svgs/line/ArrowLeftCircle.svg
+    - lib/assets/icons/svgs/line/ArrowLeftSquare.svg
+    - lib/assets/icons/svgs/line/ArrowRight.svg
+    - lib/assets/icons/svgs/line/ArrowRight2.svg
+    - lib/assets/icons/svgs/line/ArrowRight3.svg
+    - lib/assets/icons/svgs/line/ArrowRightCircle.svg
+    - lib/assets/icons/svgs/line/ArrowRightSquare.svg
+    - lib/assets/icons/svgs/line/ArrowUp.svg
+    - lib/assets/icons/svgs/line/ArrowUp2.svg
+    - lib/assets/icons/svgs/line/ArrowUp3.svg
+    - lib/assets/icons/svgs/line/ArrowUpCircle.svg
+    - lib/assets/icons/svgs/line/ArrowUpSquare.svg
+    - lib/assets/icons/svgs/line/Bag.svg
+    - lib/assets/icons/svgs/line/Bag2.svg
+    - lib/assets/icons/svgs/line/Bookmark.svg
+    - lib/assets/icons/svgs/line/Buy.svg
+    - lib/assets/icons/svgs/line/Calendar.svg
+    - lib/assets/icons/svgs/line/Call.svg
+    - lib/assets/icons/svgs/line/CallMissed.svg
+    - lib/assets/icons/svgs/line/CallSilent.svg
+    - lib/assets/icons/svgs/line/Calling.svg
+    - lib/assets/icons/svgs/line/Camera.svg
+    - lib/assets/icons/svgs/line/Category.svg
+    - lib/assets/icons/svgs/line/Chart.svg
+    - lib/assets/icons/svgs/line/Chat.svg
+    - lib/assets/icons/svgs/line/CloseSquare.svg
+    - lib/assets/icons/svgs/line/DangerCircle.svg
+    - lib/assets/icons/svgs/line/DangerTriangle.svg
+    - lib/assets/icons/svgs/line/Delete.svg
+    - lib/assets/icons/svgs/line/Discount.svg
+    - lib/assets/icons/svgs/line/Discovery.svg
+    - lib/assets/icons/svgs/line/Document.svg
+    - lib/assets/icons/svgs/line/Download.svg
+    - lib/assets/icons/svgs/line/Edit.svg
+    - lib/assets/icons/svgs/line/EditSquare.svg
+    - lib/assets/icons/svgs/line/Filter.svg
+    - lib/assets/icons/svgs/line/Filter2.svg
+    - lib/assets/icons/svgs/line/Folder.svg
+    - lib/assets/icons/svgs/line/Game.svg
+    - lib/assets/icons/svgs/line/Graph.svg
+    - lib/assets/icons/svgs/line/Heart.svg
+    - lib/assets/icons/svgs/line/Hide.svg
+    - lib/assets/icons/svgs/line/Home.svg
+    - lib/assets/icons/svgs/line/Image.svg
+    - lib/assets/icons/svgs/line/Image2.svg
+    - lib/assets/icons/svgs/line/InfoSquare.svg
+    - lib/assets/icons/svgs/line/Location.svg
+    - lib/assets/icons/svgs/line/Lock.svg
+    - lib/assets/icons/svgs/line/Login.svg
+    - lib/assets/icons/svgs/line/Logout.svg
+    - lib/assets/icons/svgs/line/Message.svg
+    - lib/assets/icons/svgs/line/MoreCircle.svg
+    - lib/assets/icons/svgs/line/MoreSquare.svg
+    - lib/assets/icons/svgs/line/Notification.svg
+    - lib/assets/icons/svgs/line/Paper.svg
+    - lib/assets/icons/svgs/line/PaperDownload.svg
+    - lib/assets/icons/svgs/line/PaperFail.svg
+    - lib/assets/icons/svgs/line/PaperNegative.svg
+    - lib/assets/icons/svgs/line/PaperPlus.svg
+    - lib/assets/icons/svgs/line/PaperUpload.svg
+    - lib/assets/icons/svgs/line/Password.svg
+    - lib/assets/icons/svgs/line/Play.svg
+    - lib/assets/icons/svgs/line/Plus.svg
+    - lib/assets/icons/svgs/line/Profile.svg
+    - lib/assets/icons/svgs/line/Scan.svg
+    - lib/assets/icons/svgs/line/Search.svg
+    - lib/assets/icons/svgs/line/Send.svg
+    - lib/assets/icons/svgs/line/Setting.svg
+    - lib/assets/icons/svgs/line/ShieldDone.svg
+    - lib/assets/icons/svgs/line/ShieldFail.svg
+    - lib/assets/icons/svgs/line/Show.svg
+    - lib/assets/icons/svgs/line/Star.svg
+    - lib/assets/icons/svgs/line/Swap.svg
+    - lib/assets/icons/svgs/line/TickSquare.svg
+    - lib/assets/icons/svgs/line/Ticket.svg
+    - lib/assets/icons/svgs/line/TicketStar.svg
+    - lib/assets/icons/svgs/line/TimeCircle.svg
+    - lib/assets/icons/svgs/line/TimeSquare.svg
+    - lib/assets/icons/svgs/line/Unlock.svg
+    - lib/assets/icons/svgs/line/Upload.svg
+    - lib/assets/icons/svgs/line/User2.svg
+    - lib/assets/icons/svgs/line/User3.svg
+    - lib/assets/icons/svgs/line/Video.svg
+    - lib/assets/icons/svgs/line/Voice.svg
+    - lib/assets/icons/svgs/line/Voice2.svg
+    - lib/assets/icons/svgs/line/VolumeDown.svg
+    - lib/assets/icons/svgs/line/VolumeOff.svg
+    - lib/assets/icons/svgs/line/VolumeUp.svg
+    - lib/assets/icons/svgs/line/Wallet.svg
+    - lib/assets/icons/svgs/line/Work.svg
+
+    #### Curved
+    - lib/assets/icons/svgs/curved/Activity.svg
+    - lib/assets/icons/svgs/curved/AddUser.svg
+    - lib/assets/icons/svgs/curved/ArrowDown.svg
+    - lib/assets/icons/svgs/curved/ArrowDown2.svg
+    - lib/assets/icons/svgs/curved/ArrowDown3.svg
+    - lib/assets/icons/svgs/curved/ArrowDownCircle.svg
+    - lib/assets/icons/svgs/curved/ArrowDownSquare.svg
+    - lib/assets/icons/svgs/curved/ArrowLeft.svg
+    - lib/assets/icons/svgs/curved/ArrowLeft2.svg
+    - lib/assets/icons/svgs/curved/ArrowLeft3.svg
+    - lib/assets/icons/svgs/curved/ArrowLeftCircle.svg
+    - lib/assets/icons/svgs/curved/ArrowLeftSquare.svg
+    - lib/assets/icons/svgs/curved/ArrowRight.svg
+    - lib/assets/icons/svgs/curved/ArrowRight2.svg
+    - lib/assets/icons/svgs/curved/ArrowRight3.svg
+    - lib/assets/icons/svgs/curved/ArrowRightCircle.svg
+    - lib/assets/icons/svgs/curved/ArrowRightSquare.svg
+    - lib/assets/icons/svgs/curved/ArrowUp.svg
+    - lib/assets/icons/svgs/curved/ArrowUp2.svg
+    - lib/assets/icons/svgs/curved/ArrowUp3.svg
+    - lib/assets/icons/svgs/curved/ArrowUpCircle.svg
+    - lib/assets/icons/svgs/curved/ArrowUpSquare.svg
+    - lib/assets/icons/svgs/curved/Bag.svg
+    - lib/assets/icons/svgs/curved/Bag2.svg
+    - lib/assets/icons/svgs/curved/Bookmark.svg
+    - lib/assets/icons/svgs/curved/Buy.svg
+    - lib/assets/icons/svgs/curved/Calendar.svg
+    - lib/assets/icons/svgs/curved/Call.svg
+    - lib/assets/icons/svgs/curved/CallMissed.svg
+    - lib/assets/icons/svgs/curved/CallSilent.svg
+    - lib/assets/icons/svgs/curved/Calling.svg
+    - lib/assets/icons/svgs/curved/Camera.svg
+    - lib/assets/icons/svgs/curved/Category.svg
+    - lib/assets/icons/svgs/curved/Chart.svg
+    - lib/assets/icons/svgs/curved/Chat.svg
+    - lib/assets/icons/svgs/curved/CloseSquare.svg
+    - lib/assets/icons/svgs/curved/DangerSquare.svg
+    - lib/assets/icons/svgs/curved/DangerTriangle.svg
+    - lib/assets/icons/svgs/curved/Delete.svg
+    - lib/assets/icons/svgs/curved/Discount.svg
+    - lib/assets/icons/svgs/curved/Discovery.svg
+    - lib/assets/icons/svgs/curved/Document.svg
+    - lib/assets/icons/svgs/curved/Download.svg
+    - lib/assets/icons/svgs/curved/Edit.svg
+    - lib/assets/icons/svgs/curved/EditSquare.svg
+    - lib/assets/icons/svgs/curved/Filter.svg
+    - lib/assets/icons/svgs/curved/Filter2.svg
+    - lib/assets/icons/svgs/curved/Folder.svg
+    - lib/assets/icons/svgs/curved/Game.svg
+    - lib/assets/icons/svgs/curved/Graph.svg
+    - lib/assets/icons/svgs/curved/Heart.svg
+    - lib/assets/icons/svgs/curved/Hide.svg
+    - lib/assets/icons/svgs/curved/Home.svg
+    - lib/assets/icons/svgs/curved/Image.svg
+    - lib/assets/icons/svgs/curved/Image2.svg
+    - lib/assets/icons/svgs/curved/InfoSquare.svg
+    - lib/assets/icons/svgs/curved/Location.svg
+    - lib/assets/icons/svgs/curved/Lock.svg
+    - lib/assets/icons/svgs/curved/Login.svg
+    - lib/assets/icons/svgs/curved/Logout.svg
+    - lib/assets/icons/svgs/curved/Message.svg
+    - lib/assets/icons/svgs/curved/MoreCircle.svg
+    - lib/assets/icons/svgs/curved/MoreSquare.svg
+    - lib/assets/icons/svgs/curved/Notification.svg
+    - lib/assets/icons/svgs/curved/Paper.svg
+    - lib/assets/icons/svgs/curved/PaperDownload.svg
+    - lib/assets/icons/svgs/curved/PaperFail.svg
+    - lib/assets/icons/svgs/curved/PaperNegative.svg
+    - lib/assets/icons/svgs/curved/PaperPlus.svg
+    - lib/assets/icons/svgs/curved/PaperUpload.svg
+    - lib/assets/icons/svgs/curved/Password.svg
+    - lib/assets/icons/svgs/curved/Play.svg
+    - lib/assets/icons/svgs/curved/Plus.svg
+    - lib/assets/icons/svgs/curved/Profile.svg
+    - lib/assets/icons/svgs/curved/Scan.svg
+    - lib/assets/icons/svgs/curved/Search.svg
+    - lib/assets/icons/svgs/curved/Send.svg
+    - lib/assets/icons/svgs/curved/Setting.svg
+    - lib/assets/icons/svgs/curved/ShieldDone.svg
+    - lib/assets/icons/svgs/curved/ShieldFail.svg
+    - lib/assets/icons/svgs/curved/Show.svg
+    - lib/assets/icons/svgs/curved/Star.svg
+    - lib/assets/icons/svgs/curved/Swap.svg
+    - lib/assets/icons/svgs/curved/TickSquare.svg
+    - lib/assets/icons/svgs/curved/Ticket.svg
+    - lib/assets/icons/svgs/curved/TicketStar.svg
+    - lib/assets/icons/svgs/curved/TimeCircle.svg
+    - lib/assets/icons/svgs/curved/TimeSquare.svg
+    - lib/assets/icons/svgs/curved/Unlock.svg
+    - lib/assets/icons/svgs/curved/Upload.svg
+    - lib/assets/icons/svgs/curved/User2.svg
+    - lib/assets/icons/svgs/curved/User3.svg
+    - lib/assets/icons/svgs/curved/Video.svg
+    - lib/assets/icons/svgs/curved/Voice.svg
+    - lib/assets/icons/svgs/curved/Voice2.svg
+    - lib/assets/icons/svgs/curved/VolumeDown.svg
+    - lib/assets/icons/svgs/curved/VolumeOff.svg
+    - lib/assets/icons/svgs/curved/VolumeUp.svg
+    - lib/assets/icons/svgs/curved/Wallet.svg
+    - lib/assets/icons/svgs/curved/Work.svg
+  #
+  # For details regarding assets in packages, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  #
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # To add custom fonts to your package, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+
+  # Fonts
+  fonts:
+    #### Inter - Sans Serif typeface
+    - family: Inter
+      fonts:
+        - asset: lib/assets/fonts/Inter-Bold.otf
+          weight: 800
+        - asset: lib/assets/fonts/Inter-BoldItalic.otf
+          weight: 800
+          style: italic
+        - asset: lib/assets/fonts/Inter-SemiBold.otf
+          weight: 600
+        - asset: lib/assets/fonts/Inter-SemiBoldItalic.otf
+          weight: 600
+          style: italic
+        - asset: lib/assets/fonts/Inter-Medium.otf
+          weight: 500
+        - asset: lib/assets/fonts/Inter-MediumItalic.otf
+          weight: 500
+          style: italic
+        - asset: lib/assets/fonts/Inter-Regular.otf
+          weight: 400
+        - asset: lib/assets/fonts/Inter-Italic.otf
+          weight: 400
+          style: italic
+    # #### Times New Roman - Serif typeface
+    # - family: Times New Roman
+    #   fonts:
+    #     - asset: lib/assets/fonts/Times-New-Roman-Bold.ttf
+    #       weight: 800
+    #     - asset: lib/assets/fonts/Times-New-Roman-Bold-Italic.ttf
+    #       weight: 800
+    #       style: italic
+    #     - asset: lib/assets/fonts/Times-New-Roman.ttf
+    #       weight: 400
+    #     - asset: lib/assets/fonts/Times-New-Roman-Italic.ttf
+    #       weight: 400
+    #       style: italic
+    #### New York - Serif typeface
+    - family: NewYork
+      fonts:
+        - asset: lib/assets/fonts/NewYork.ttf
+          weight: 400
+        - asset: lib/assets/fonts/NewYorkItalic.ttf
+          weight: 400
+          style: italic
+        - asset: lib/assets/fonts/NewYork.ttf
+          weight: 500
+        - asset: lib/assets/fonts/NewYorkItalic.ttf
+          weight: 500
+          style: italic
+        - asset: lib/assets/fonts/NewYork.ttf
+          weight: 600
+        - asset: lib/assets/fonts/NewYorkItalic.ttf
+          weight: 600
+          style: italic
+        - asset: lib/assets/fonts/NewYork.ttf
+          weight: 700
+        - asset: lib/assets/fonts/NewYorkItalic.ttf
+          weight: 700
+          style: italic
+        - asset: lib/assets/fonts/NewYork.ttf
+          weight: 800
+        - asset: lib/assets/fonts/NewYorkItalic.ttf
+          weight: 800
+          style: italic
+  #
+  # For details regarding fonts in packages, see
+  # https://flutter.dev/custom-fonts/#from-packages
