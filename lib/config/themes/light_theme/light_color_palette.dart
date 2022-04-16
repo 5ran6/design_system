@@ -24,7 +24,7 @@ class CantonColors {
   );
   static const MaterialColor blue = MaterialColor(
     // My Favorite Color :)
-    0xFF0366d6,
+    0xFF030C5A,
     <int, Color>{
       100: const Color(0xFFf1f8ff),
       200: const Color(0xFFdbedff),
@@ -33,9 +33,9 @@ class CantonColors {
       500: const Color(0xFF2188ff),
       600: const Color(0xFF0366d6),
       700: const Color(0xFF005cc5),
-      800: const Color(0xFF044289),
+      800: const Color(0xFF030C5A),
       900: const Color(0xFF032f62),
-      1000: const Color(0xFF05264c),
+      1000: const Color(0xFF030C5A),
     },
   );
   static const MaterialColor green = MaterialColor(
@@ -192,11 +192,11 @@ class CantonColors {
     secondary: CupertinoColors.systemGrey6,
     secondaryVariant: CupertinoColors.secondaryLabel,
     background: green,
-    surface: yellow,
+    surface: blue,
     error: red[700]!,
     onSecondary: gray[200]!,
     onBackground: black,
-    onSurface: yellow[100]!,
+    onSurface: blue[200]!,
     onError: red[100]!,
   );
 }
