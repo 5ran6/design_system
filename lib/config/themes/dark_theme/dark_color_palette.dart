@@ -190,7 +190,7 @@ class CantonDarkColors {
     secondary: CupertinoColors.systemGrey6.darkColor,
     secondaryVariant: CupertinoColors.secondaryLabel.darkColor,
     background: green,
-    surface: yellow[300]!,
+    surface: blue[300]!,
     error: red,
     onPrimary: blue,
     onSecondary: Color(0xFF212122),
