@@ -1,4 +1,5 @@
 import 'package:canton_design_system/canton_design_system.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class CantonApp extends StatelessWidget {
   final String? title;
@@ -26,24 +27,28 @@ class CantonApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: title!,
-      navigatorObservers: navigatorObservers ?? [],
-      theme: lightTheme ??
-          cantonLightTheme().copyWith(
-            primaryColor: primaryLightColor,
-            colorScheme: cantonLightTheme().colorScheme.copyWith(
-                primaryVariant: primaryLightVariantColor),
-          ),
-      darkTheme: darkTheme ??
-          cantonDarkTheme().copyWith(
-            primaryColor: primaryDarkColor,
-            colorScheme: cantonDarkTheme().colorScheme.copyWith(
-                primaryVariant: primaryDarkVariantColor),
-          ),
-      home: home,
-      builder: builder,
+    return Consumer(
+      builder: (context, watch, child) {
+        final repo = watch(themeProvider);
+        return MaterialApp(
+          debugShowCheckedModeBanner: false,
+          title: title!,
+          themeMode: repo.themeMode,
+          navigatorObservers: navigatorObservers ?? [],
+          theme: lightTheme ??
+              cantonLightTheme().copyWith(
+                primaryColor: primaryLightColor,
+                colorScheme: cantonLightTheme().colorScheme.copyWith(primaryVariant: primaryLightVariantColor),
+              ),
+          darkTheme: darkTheme ??
+              cantonDarkTheme().copyWith(
+                primaryColor: primaryDarkColor,
+                colorScheme: cantonDarkTheme().colorScheme.copyWith(primaryVariant: primaryDarkVariantColor),
+              ),
+          home: home,
+          builder: builder,
+        );
+      },
     );
   }
 }
