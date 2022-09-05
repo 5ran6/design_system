@@ -8,7 +8,6 @@ class CantonApp extends StatelessWidget {
   final Color? primaryDarkColor;
   final Color primaryLightVariantColor;
   final Color primaryDarkVariantColor;
-  final List<NavigatorObserver>? navigatorObservers;
   final Widget Function(BuildContext, Widget?)? builder;
   final ThemeData? lightTheme, darkTheme;
 
@@ -19,7 +18,6 @@ class CantonApp extends StatelessWidget {
     required this.primaryDarkColor,
     this.primaryLightVariantColor = CantonColors.blue,
     this.primaryDarkVariantColor = CantonDarkColors.blue,
-    this.navigatorObservers,
     this.builder,
     this.lightTheme,
     this.darkTheme,
@@ -34,7 +32,6 @@ class CantonApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: title!,
           themeMode: repo.themeMode,
-          navigatorObservers: navigatorObservers ?? [],
           theme: lightTheme ??
               cantonLightTheme().copyWith(
                 primaryColor: primaryLightColor,
