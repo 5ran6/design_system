@@ -142,7 +142,7 @@ class _CantonTagTextInputState extends State<CantonTagTextInput> {
   }
 
   void _animateTransition() {
-    WidgetsBinding.instance!.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
       if (_scrollController.hasClients) {
         _scrollController.animateTo(
           _scrollController.position.maxScrollExtent,
