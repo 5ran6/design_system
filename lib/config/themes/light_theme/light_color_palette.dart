@@ -187,10 +187,10 @@ class CantonColors {
 
   static var colorScheme = ColorScheme.light(
     primary: textPrimary,
-    primaryVariant: blue,
+    primaryContainer: blue,
     onPrimary: blue,
     secondary: CupertinoColors.systemGrey6,
-    secondaryVariant: CupertinoColors.secondaryLabel,
+    secondaryContainer: CupertinoColors.secondaryLabel,
     background: green,
     surface: blue,
     error: red[700]!,

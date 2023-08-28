@@ -38,12 +38,12 @@ class CantonApp extends StatelessWidget {
           theme: lightTheme ??
               cantonLightTheme().copyWith(
                 primaryColor: primaryLightColor,
-                colorScheme: cantonLightTheme().colorScheme.copyWith(primaryVariant: primaryLightVariantColor),
+                colorScheme: cantonLightTheme().colorScheme.copyWith(primaryContainer: primaryLightVariantColor),
               ),
           darkTheme: darkTheme ??
               cantonDarkTheme().copyWith(
                 primaryColor: primaryDarkColor,
-                colorScheme: cantonDarkTheme().colorScheme.copyWith(primaryVariant: primaryDarkVariantColor),
+                colorScheme: cantonDarkTheme().colorScheme.copyWith(primaryContainer: primaryDarkVariantColor),
               ),
           home: home,
           builder: builder,

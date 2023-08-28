@@ -82,13 +82,13 @@ ThemeData cantonDarkTheme() {
       prefixStyle: TextStyle(
         fontSize: 17.0,
         fontWeight: FontWeight.w400,
-        color: CantonDarkColors.colorScheme.secondaryVariant,
+        color: CantonDarkColors.colorScheme.secondaryContainer,
         height: 1.5,
       ),
       suffixStyle: TextStyle(
         fontSize: 17.0,
         fontWeight: FontWeight.w400,
-        color: CantonDarkColors.colorScheme.secondaryVariant,
+        color: CantonDarkColors.colorScheme.secondaryContainer,
         height: 1.5,
       ),
     ),
@@ -126,7 +126,7 @@ ThemeData cantonDarkTheme() {
       elevation: 0.0,
     ),
     bottomNavigationBarTheme: BottomNavigationBarThemeData(
-      unselectedItemColor: CantonDarkColors.colorScheme.secondaryVariant,
+      unselectedItemColor: CantonDarkColors.colorScheme.secondaryContainer,
       selectedItemColor: base.primaryColor,
       selectedLabelStyle: MobileTextTheme.theme(base).bodyText2?.copyWith(fontWeight: FontWeight.w500),
       unselectedLabelStyle: MobileTextTheme.theme(base).bodyText2?.copyWith(fontWeight: FontWeight.w500),

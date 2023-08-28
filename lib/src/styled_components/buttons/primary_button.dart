@@ -159,7 +159,7 @@ class _CantonPrimaryButtonState extends State<CantonPrimaryButton> with SingleTi
                       (widget.color!.value == Theme.of(context).primaryColor.value
                           ? CantonColors.white
                           : Theme.of(context).colorScheme.primary))
-                  : Theme.of(context).colorScheme.secondaryVariant,
+                  : Theme.of(context).colorScheme.secondaryContainer,
             ),
       );
     }
