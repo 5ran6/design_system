@@ -18,7 +18,7 @@ class CantonBackButton extends StatelessWidget {
       prefixIcon: Icon(
         Iconsax.arrow_left_3,
         color: [null, false].contains(isClear)
-            ? Theme.of(context).colorScheme.secondaryVariant
+            ? Theme.of(context).colorScheme.secondaryContainer
             : Theme.of(context).primaryColor,
         size: 27,
       ),
