@@ -170,7 +170,7 @@ class _CantonExpansionTileState extends State<CantonExpansionTile> with SingleTi
                   side: BorderSide.none,
                 ),
                 title: DefaultTextStyle(
-                  style: Theme.of(context).textTheme.headline6!.copyWith(color: titleColor),
+                  style: Theme.of(context).textTheme.titleLarge!.copyWith(color: titleColor),
                   child: widget.title,
                 ),
                 trailing: widget.trailing ??
@@ -200,7 +200,7 @@ class _CantonExpansionTileState extends State<CantonExpansionTile> with SingleTi
     final ThemeData theme = Theme.of(context);
     _borderColorTween..end = theme.dividerColor;
     _headerColorTween
-      ..begin = theme.textTheme.subtitle1!.color
+      ..begin = theme.textTheme.titleMedium!.color
       ..end = theme.colorScheme.primary;
     _iconColorTween
       ..begin = theme.unselectedWidgetColor

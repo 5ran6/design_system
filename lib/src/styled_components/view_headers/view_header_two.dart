@@ -35,7 +35,7 @@ class ViewHeaderTwo extends StatelessWidget {
           title!,
           style: Theme.of(context)
               .textTheme
-              .headline5!
+              .headlineSmall!
               .copyWith(color: textColor ?? Theme.of(context).colorScheme.primary, fontWeight: FontWeight.w600),
         ),
         buttonTwo ?? CantonNullButton()

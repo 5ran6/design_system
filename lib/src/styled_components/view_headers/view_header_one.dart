@@ -14,10 +14,7 @@ class ViewHeaderOne extends StatelessWidget {
       children: [
         Text(
           title!,
-          style: Theme.of(context)
-              .textTheme
-              .headline2!
-              .copyWith(color: Theme.of(context).colorScheme.primary),
+          style: Theme.of(context).textTheme.displayMedium!.copyWith(color: Theme.of(context).colorScheme.primary),
         ),
         Spacer(),
         button ??

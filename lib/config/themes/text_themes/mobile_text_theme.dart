@@ -12,77 +12,77 @@ class MobileTextTheme {
 
   static TextTheme theme(ThemeData base) {
     return base.textTheme.copyWith(
-      headline1: TextStyle(
+      displayLarge: TextStyle(
         fontFamily: kFontFamily,
         fontWeight: FontWeight.w700,
         fontSize: kH00,
         height: kLineHeight,
         color: lightDarkModeDefaultTextColor(base),
       ),
-      headline2: TextStyle(
+      displayMedium: TextStyle(
         fontFamily: kFontFamily,
         fontWeight: FontWeight.w700,
         fontSize: kH0,
         height: kLineHeight,
         color: lightDarkModeDefaultTextColor(base),
       ),
-      headline3: TextStyle(
+      displaySmall: TextStyle(
         fontFamily: kFontFamily,
         fontWeight: FontWeight.w800,
         fontSize: kH1,
         height: kLineHeight,
         color: lightDarkModeDefaultTextColor(base),
       ),
-      headline4: TextStyle(
+      headlineMedium: TextStyle(
         fontFamily: kFontFamily,
         fontWeight: FontWeight.w600,
         fontSize: kH2,
         height: kLineHeight,
         color: lightDarkModeDefaultTextColor(base),
       ),
-      headline5: TextStyle(
+      headlineSmall: TextStyle(
         fontFamily: kFontFamily,
         fontWeight: FontWeight.w500,
         fontSize: kH3,
         height: kLineHeightTwo,
         color: lightDarkModeDefaultTextColor(base),
       ),
-      headline6: TextStyle(
+      titleLarge: TextStyle(
         fontFamily: kFontFamily,
         fontWeight: FontWeight.w500,
         fontSize: kH4,
         height: kLineHeightTwo,
         color: lightDarkModeDefaultTextColor(base),
       ),
-      bodyText1: TextStyle(
+      bodyLarge: TextStyle(
         fontFamily: kFontFamily,
         fontWeight: FontWeight.w400,
         fontSize: kH5,
         height: kLineHeightTwo,
         color: lightDarkModeDefaultTextColor(base),
       ),
-      bodyText2: TextStyle(
+      bodyMedium: TextStyle(
         fontFamily: kFontFamily,
         fontWeight: FontWeight.w400,
         fontSize: kH6,
         height: kLineHeightTwo,
         color: lightDarkModeDefaultTextColor(base),
       ),
-      button: TextStyle(
+      labelLarge: TextStyle(
         fontFamily: kFontFamily,
         fontWeight: FontWeight.w600,
         fontSize: 17.0,
         height: kLineHeightTwo,
         color: lightDarkModeDefaultTextColor(base),
       ),
-      caption: TextStyle(
+      bodySmall: TextStyle(
         fontFamily: kFontFamily,
         fontWeight: FontWeight.w400,
         fontSize: kH6,
         height: kLineHeightTwo,
         color: lightDarkModeDefaultTextColor(base),
       ),
-      overline: TextStyle(
+      labelSmall: TextStyle(
         fontFamily: kFontFamily,
         fontWeight: FontWeight.w400,
         fontSize: 10.0,
