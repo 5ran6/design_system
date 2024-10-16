@@ -114,7 +114,7 @@ class _CantonExpansionTileState extends State<CantonExpansionTile> with SingleTi
     _iconColor = _controller.drive(_iconColorTween.chain(_easeInTween));
     _backgroundColor = _controller.drive(_backgroundColorTween.chain(_easeOutTween));
 
-    _isExpanded = PageStorage.of(context)?.readState(context) ?? widget.initiallyExpanded;
+    _isExpanded = PageStorage.of(context).readState(context) ?? widget.initiallyExpanded;
     if (_isExpanded) _controller.value = 1.0;
   }
 
@@ -137,7 +137,7 @@ class _CantonExpansionTileState extends State<CantonExpansionTile> with SingleTi
           });
         });
       }
-      PageStorage.of(context)?.writeState(context, _isExpanded);
+      PageStorage.of(context).writeState(context, _isExpanded);
     });
     if (widget.onExpansionChanged != null) widget.onExpansionChanged!(_isExpanded);
   }
